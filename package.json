@@ -1,0 +1,22 @@
+{
+  "name": "analytics-qa-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec **/*.features"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "npm": ">=8.0.0 <9.0.0",
+    "node": ">=19.0.0 <20.0.0"
+  },
+  "devDependencies": {
+    "cypress": "^10.11.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
