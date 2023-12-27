@@ -13,7 +13,7 @@
     "node": ">=18.19.0 <=20.10.0"
   },
   "devDependencies": {
-    "cypress": "^10.11.0",
+    "cypress": "^13.6.2",
     "cypress-cucumber-preprocessor": "^4.3.1"
   },
   "cypress-cucumber-preprocessor": {
